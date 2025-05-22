@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Праздник в каждый дом</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🎉 Праздник в каждый дом</div>
+    <nav>
+      <a href="#">Акции</a>
+      <a href="search.html">Поиск</a>
+      <a href="booking.html">Управление бронированием</a>
+    </nav>
+  </header>
+
+  <section class="steps">
+    <h2>Как забронировать праздник?</h2>
+    <div class="step-list">
+      <div class="step">1. Выберите дату</div>
+      <div class="step">2. Укажите количество гостей</div>
+      <div class="step">3. Выберите локацию</div>
+      <div class="step">4. Выберите зону</div>
+      <div class="step">5. Добавьте услуги</div>
+      <div class="step">6. Оформите заказ</div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>О нас</h2>
+    <p>Наша цель — сделать праздник незабываемым для вас и вашего ребёнка.</p>
+    <p><em>«Подарим волшебство для Ваших детей!»</em></p>
+    <blockquote>«Спасибо за шикарный праздник! Дети были в восторге!» — Марина, мама Саши</blockquote>
+  </section>
+
+  <section class="search-form">
+    <h2>Найдите подходящую локацию</h2>
+    <form action="search.html" method="get">
+      <label>Регион: <input type="text" name="region" required></label>
+      <label>Дата мероприятия: <input type="date" name="date" required></label>
+      <label>Взрослые и дети (до 50): <input type="number" name="guests" max="50" required></label>
+      <button type="submit">Поиск</button>
+    </form>
+  </section>
+
+  <section class="promotions">
+    <h2>Наши акции</h2>
+    <div class="promo-card">
+      <img src="assets/aktsiya1.jpg" alt="Акция 1">
+      <h3>Сказочный аниматор</h3>
+      <p>Закажите аниматора — получите фотосессию бесплатно!</p>
+      <a href="#">Подробнее</a>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <h2>Подпишитесь на закрытые акции</h2>
+    <form>
+      <input type="email" placeholder="Ваш email">
+      <button>Подписаться</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Телефон: 8 (800) 111-20-20</p>
+    <nav>
+      <a href="http://rittesketcha-m1.wsr.ru/return">Возврат</a>
+      <a href="http://rittesketcha-m1.wsr.ru/feedback">Обратная связь</a>
+    </nav>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
